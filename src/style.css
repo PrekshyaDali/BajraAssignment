@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+
+  
+@tailwind utilities;
+.hover\:ease-in-out:hover {
+    transition: all 0.3s ease-in-out;
+    /* Add other hover styles here */
+  }
