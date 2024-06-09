@@ -13,3 +13,5 @@ fetchAndInsert('src/components/navbar.html', 'navbar');
 
 // Insert footer
 fetchAndInsert('src/components/footer.html', 'footer');
+fetchAndInsert('src/components/hero.html', 'hero');
+

@@ -27,6 +27,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 img: "./public/img/assignmentpic.jpg",
                 link: "https://github.com/PrekshyaDali/Bajra_AssignmentPage",
                 linkText: "Read More"
+            },
+            {
+                title: "Demo",
+                description: "Shell scripting is the art of writing scripts for a shell, a command-line interpreter that provides a user interface for accessing the operating system's services. The shell acts as an interface between the user and the kernel (the core of the operating system). It interprets user commands, launches programs, and handles file management tasks.",
+                img: "./public/img/assignmentpic.jpg",
+                link: "https://github.com/PrekshyaDali/Bajra_AssignmentPage",
+                linkText: "Read More"
+            },
+            {
+                title: "Demo",
+                description: "Shell scripting is the art of writing scripts for a shell, a command-line interpreter that provides a user interface for accessing the operating system's services. The shell acts as an interface between the user and the kernel (the core of the operating system). It interprets user commands, launches programs, and handles file management tasks.",
+                img: "./public/img/assignmentpic.jpg",
+                link: "https://github.com/PrekshyaDali/Bajra_AssignmentPage",
+                linkText: "Read More"
             }
         ];
 
