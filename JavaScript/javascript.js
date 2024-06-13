@@ -347,6 +347,7 @@ console.log(animals.slice());
 
 
 // unshift
+// this will put the element in the first in the array
 let s = [2,4,5,6]
 s.unshift('prekshya')
 console.log(s)
