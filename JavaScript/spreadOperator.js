@@ -1,4 +1,4 @@
-// learn about hte spread operator
+// learn about the spread operator
 let a = [1, 2,3]
 let b = [3,4.5]
 const c = {...a, ...b}
@@ -67,7 +67,5 @@ const restOne = {
     c: "hello3",
     d: 'hello4'
 }
-
 const {a, b, ...rest} =restOne
 console.log(rest)
-
