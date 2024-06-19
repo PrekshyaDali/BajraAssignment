@@ -80,7 +80,7 @@ modebtn.addEventListener('click', () => {
     }
     console.log(currMode)
 })
-console.log("\n")
+
 
 
 

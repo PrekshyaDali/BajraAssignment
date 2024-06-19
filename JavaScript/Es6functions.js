@@ -25,7 +25,7 @@ const a = {
     vacancy: ".net",
     isFunction: function () {
         console.log(this)
-        const print2 = () => {
+        const printTwo = () => {
             console.log(`this is a demo ${this.vacancy}`)
         }
 
@@ -37,8 +37,8 @@ a.isFunction()
 const obj = {
     name: 'deeecode',
     age: 200,
-    print: function print2() {
-          const print2 = () => {
+    print: function printTwo() {
+          const printTwo = () => {
             console.log(this)
           }
 
@@ -129,19 +129,18 @@ console.log(sum(...arr))
 // when we want to make the changes in the object we can use the spread oeprator
 // overwrite can also be done
 // these are used when we want certain object with some changes
-let obj2 = {
+let objTwo = {
     name: 'Harry',
     company: 'Company xyz',
     address: 'XYZ'
 }
 
-let obj3 = {
+let objThree = {
     obj_name: 'Sijan',
     address: 'Australia'
 }
-console.log({...obj2, ...obj3, address : 'korea'})
-
-console.log({...obj2, name: 'Prekshya' , address: 'Gairigaun'})
+console.log({...objTwo, ...objThree, address : 'korea'})
+console.log({...objTwo, name: 'Prekshya' , address: 'Gairigaun'})
 // waht we want to overwrite we have to put it in first
 
 // destructuring in obj
@@ -164,8 +163,6 @@ const employee = {
   
   console.log(name); 
   console.log(city); 
-  
-
   const abc = [1,2,3];
-  const object5 = {...abc}
-  console.log(object5)
+  const objectFive = {...abc}
+  console.log(objectFive)

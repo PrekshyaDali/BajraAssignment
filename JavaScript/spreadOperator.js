@@ -70,4 +70,4 @@ const restOne = {
 
 const {a, b, ...rest} =restOne
 console.log(rest)
-console.log("\n")
+
