@@ -7,7 +7,6 @@ console.log(headingTwo)
 let divs = document.getElementsByClassName("box")
 console.dir(divs)
 console.log(divs)
-
 divs.innerText = '<p>this is the new text i am adding</p>'
 let button = document.createElement('button')
 button.innerText = "clickme!"
@@ -80,8 +79,3 @@ modebtn.addEventListener('click', () => {
     }
     console.log(currMode)
 })
-
-
-
-
-
