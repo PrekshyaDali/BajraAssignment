@@ -24,8 +24,8 @@ const f = {
     hi: "hi"
 }
 
-const obj1 = {...f}
-console.log(obj1)
+const objOne = {...f}
+console.log(objOne)
 
 // also to make the shallow copy of the array
 const g = [4,5,6]
@@ -40,35 +40,34 @@ function print(a, b, c){
 console.log(print(...g))
 
 const str = 'PREKSHYA'
-const str1 = {...str}
-console.log(str1)
+const strOne = {...str}
+console.log(strOne)
 
-// strict equality in js
-// in strict equality ==== checks the value and hte type whereas the == will only check the value
+/* strict equality in js
+in strict equality === checks the value and the type whereas the == will only check the value */ 
 
 // reduce method
-const reduce1 = [1,2,3,4,5]
-const sum = reduce1.reduce((acc, curr)=> acc + curr, 0)
+const reduceOne = [1,2,3,4,5]
+const sum = reduceOne.reduce((acc, curr)=> acc + curr, 0)
 console.log(sum, 'sum')
 
 // another example of the reduce
-const reduce2 = [5,6,7,8,9]
-const multipluy = reduce2.reduce((acc, curr)=> acc * curr, 0)
+const reduceTwo = [5,6,7,8,9]
+const multipluy = reduceTwo.reduce((acc, curr)=> acc * curr, 0)
 console.log(multipluy)
 
 // splice method 
 const splice1 = ['orange', 'apple', 'strawberry', 'hello', 'kiwi']
 console.log(splice1.splice(1, 1))
 
-
 // rest operator
-const rest1 = {
+const restOne = {
     a: 'hello',
     b: 'hello2',
     c: "hello3",
     d: 'hello4'
 }
 
-const {a, b, ...rest} =rest1
+const {a, b, ...rest} =restOne
 console.log(rest)
-
+console.log("\n")

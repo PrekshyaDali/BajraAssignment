@@ -23,10 +23,14 @@ console.log(' Remove whitespace '.trim())
 
 //Built in Objects in Javascript
 //Built in Objects
-console.log(Math.random() * 100)//in this case it selects the random number between the 0 and the 100
-console.log(Math.floor(Math.random() * 100))// math.floor helps to round up the number
-console.log(Math.ceil(43.8))// this will help to returns the small integer greater than or equal to a decimal number
-console.log(Number.isInteger(2017))//check if the given number is integer or not
+//in this case it selects the random number between the 0 and the 100
+console.log(Math.random() * 100)
+// math.floor helps to round up the number
+console.log(Math.floor(Math.random() * 100))
+// this will help to returns the small integer greater than or equal to a decimal number
+console.log(Math.ceil(43.8))
+//check if the given number is integer or not
+console.log(Number.isInteger(2017))
 
 //Usage of var keyword in JS
 //Variables in JS
@@ -246,7 +250,6 @@ console.log(m.map((element)=>{
     return element*2
 }))
 
-
 // pop
 // it will return teh alst element from the array and will return that element
 const n = [1,2,4,5,6]
@@ -340,7 +343,6 @@ console.log(Object.entries(obj4), "entries")
 
 // has own property returns the boolean value and checks if the input property is available in the key of the object or not
 console.log(obj4.hasOwnProperty('3'))
-
 // Object.is()
 console.log(Object.is('obj1', 'Obj2'), 'Objectis')
-
+console.log("\n")
