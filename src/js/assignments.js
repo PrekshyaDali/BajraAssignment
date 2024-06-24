@@ -32,12 +32,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 githublink: "https://git.bajratechnologies.com/Prekshya/bajra_design_assignment",
             },
             {
-                title: "Demo",
-                description: "Shell scripting is the art of writing scripts for a shell, a command-line interpreter that provides a user interface for accessing the operating system's services. The shell acts as an interface between the user and the kernel (the core of the operating system). It interprets user commands, launches programs, and handles file management tasks.",
-                img: "./public/img/assignmentpic.jpg",
-                link: "https://github.com/PrekshyaDali/Bajra_AssignmentPage",
+                title: "Bug on a Wire",
+                description: "The Bug on a Wire game project is a recreation of the classic Miniclip game using HTML, CSS, and JavaScript. It challenges players to control a bug navigating along wires while avoiding obstacles. The game features responsive controls, dynamic obstacle generation, a scoring system, and game over conditions.",
+                img: "./public/img/bugOnAWire.png",
+                link: "http://bug-on-a-wire-prekshya-69516d4ceac7ed446fd68e68367cc98450c6e2c7.pages.bajratechnologies.com/",
                 linkText: "Visit Site",
-                githublink: "",
+                githublink: "https://git.bajratechnologies.com/Prekshya/bug-on-a-wire",
             },
             {
                 title: "Demo",
